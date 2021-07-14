@@ -89,6 +89,12 @@
        justify-content: center;
    }
 
+/* footer */
+
+footer{
+    margin-top: 100px;
+}
+
    footer img {
     width: 265px;
     height: 110px;
