@@ -195,3 +195,89 @@ main{
     padding: 5px 10px;
     
 }
+
+/*=============================\
+          countdown 
+\=============================*/
+
+.countdown-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    
+}
+.countdown-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    background-color: orange;
+    padding: 15px;
+    width: 89%;
+    border-radius: 10px;
+}
+.countdown-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.countdown-area h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: gray;
+    border-bottom: 3px solid black;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+    
+
+.countdown span{
+    color: #fff;
+    border:5px solid #ddd;
+    padding: 0 0px;
+    border-radius: 20px;
+}
+.box{
+    display: inline-block;
+    overflow: hidden;
+    height: 9rem;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 9em;
+    background: gray;
+}
+.box:after{
+    position: relative;
+    white-space: pre;
+    content:"0\A 1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9"
+}
+.box.first-number:after{
+    animation: animate 1s steps(10) infinite;
+}
+.box.second-number:after{
+    animation: animate 10s steps(10) infinite;
+}
+.box.third-number:after{
+    animation: animate 100s steps(10) infinite;
+}
+@keyframes animate{
+    0%{
+        top:0;
+    }
+    80%{
+        top:-10em;
+    }
+    100%{
+        top:-10em;
+    }
+}
