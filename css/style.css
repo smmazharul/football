@@ -293,3 +293,33 @@ main{
         top:-10em;
     }
 }
+
+/*=============================\
+          footer 
+\=============================*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-icons{
+    font-size: 32px;
+    word-spacing: 10px;
+    margin-top: 20px;
+}
+footer p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
