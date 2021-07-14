@@ -206,14 +206,26 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    flex-direction: column;
+
+}
+.dashed{
+    color: orange;
+}
+.countdown-titile{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 700;
     
     
+
 }
 .countdown-part{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
-    background-color: orange;
+    background-color: gray;
     padding: 15px;
     width: 89%;
     border-radius: 10px;
@@ -229,7 +241,7 @@ main{
     margin-bottom: 20px;
     font-size: 28px;
     font-weight: 700;
-    color: gray;
+    color: white;
     border-bottom: 3px solid black;
 }
 .countdown{
