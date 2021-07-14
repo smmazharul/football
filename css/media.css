@@ -1,7 +1,9 @@
 
-@media only screen and  (max-width:480px) {
+@media only screen and  (max-width:360px) {
     header{
-        background-color: red;
+        width:360px;
+        height: 695px;
+        
     }
     .header-banner-part{
         grid-template-columns: repeat(1,1fr);
@@ -9,11 +11,26 @@
         align-items: center;
     }
     .header-banner img{
-        Width: 250px;
-        Height: 256px;
+        Width: 329px;
+        Height: 200px;
         transition: 3s;
-        margin-left: 29%;
+        margin-left: 2%;
+        margin-top: 50px;
     }
+
+    .header-info h2{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .header-info a{
+        line-height: 105px;
+    }
+
+    /* card part */
+
     main{
         display: flex;
         justify-content: center;
@@ -25,6 +42,10 @@
 
     .card-parts{
         grid-template-columns: repeat(1,1fr);
+    }
+    .cards {
+        width: 330px;
+        height: 474px;
     }
 
     .iframe-section {
