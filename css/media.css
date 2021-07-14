@@ -1,0 +1,69 @@
+
+@media only screen and  (max-width:480px) {
+    header{
+        background-color: red;
+    }
+    .header-banner-part{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .header-banner img{
+        Width: 250px;
+        Height: 256px;
+        transition: 3s;
+        margin-left: 29%;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        flex-direction: row;
+        
+    }
+
+    .card-parts{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .iframe-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .iframe-content {
+        margin-top: 70px;
+        width: 76%;
+        height: 425px;
+        text-align: justify;
+        word-break: break-all;
+        border: 1px solid white;
+        padding: 14px;
+        box-shadow: 2px 2px 30px white;
+        border-radius: 10px;
+    }
+
+   .iframe-size{
+       width: auto;
+   }
+
+   .iframe-titile{
+       margin-top: 50px;
+   }
+
+   /* countdown part */
+
+   .countdown-part{
+       grid-template-columns: repeat(1,1fr);
+       justify-content: center;
+   }
+
+   footer img {
+    width: 265px;
+    height: 110px;
+}
+
+}
