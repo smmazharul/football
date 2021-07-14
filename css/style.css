@@ -12,9 +12,11 @@ body{
 \=============================*/
 header{
     background-color:#2D25A0 ;
-    width:96%;
+    width:100%;
     background-repeat: no-repeat;
-    padding: 8% 2%;
+    background-size: cover;
+    background-position: center;
+    padding: 153px 0px 90px 0px;
     transition: 3s;
     
     
@@ -34,8 +36,8 @@ header:hover .header-banner img{
     align-items: center;
 }
 .header-info{
-  margin-left: 20%;
-  margin-top: 10%;
+  margin-left: 156px;
+  margin-bottom: 46px;
   
   
 }
@@ -319,6 +321,18 @@ footer img{
 footer p{
     font-size: 18px;
     margin-top: 20px;
+}
+
+.footer-icons i{
+    background-color:   #0b0d1726;
+    padding: 10px;
+    border-radius: 50%;
+ 
+}
+.fab{
+    color: #969BAB;
+    font-weight: 700;
+    
 }
 
 
