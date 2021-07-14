@@ -2,8 +2,7 @@
 @media only screen and  (max-width:360px) {
     header{
         width:360px;
-        height: 695px;
-        
+        height: 695px; 
     }
     .header-banner-part{
         grid-template-columns: repeat(1,1fr);
@@ -16,7 +15,10 @@
         transition: 3s;
         margin-left: 2%;
         margin-top: 50px;
+        transition: 0;
+       
     }
+    
 
     .header-info h2{
         width: 278px;
@@ -28,6 +30,7 @@
     .header-info a{
         line-height: 105px;
     }
+    
 
     /* card part */
 
@@ -46,6 +49,7 @@
     .cards {
         width: 330px;
         height: 474px;
+        margin-left: 15px;
     }
 
     .iframe-section {
